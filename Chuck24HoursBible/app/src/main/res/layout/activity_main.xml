@@ -1,0 +1,40 @@
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="fill_parent"
+    android:layout_height="fill_parent"
+    android:orientation="vertical">
+<LinearLayout
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:background="@color/black"
+    android:layout_marginBottom="10dp"
+    android:orientation="vertical">
+    <SeekBar
+        android:id="@+id/sbar"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:max="10"
+        android:progressDrawable="@drawable/progress_seekbar"
+        android:thumb="@drawable/humbler_small"/>
+    <TextView
+        android:layout_width="match_parent"
+        android:id="@+id/txtAudPlay"
+        android:text="@string/hello_world"
+        android:textColor="@color/white"
+        android:layout_height="wrap_content" />
+</LinearLayout>
+        <ListView
+        android:id="@+id/list"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content" />
+
+    <!--<RelativeLayout-->
+        <!--android:layout_width="match_parent"-->
+        <!--android:layout_height="wrap_content"-->
+        <!--android:layout_alignParentBottom="true">-->
+
+        <!--<SeekBar-->
+            <!--android:id="@+id/sbar"-->
+            <!--android:layout_width="match_parent"-->
+            <!--android:layout_height="wrap_content" />-->
+    <!--</RelativeLayout>-->
+</LinearLayout>

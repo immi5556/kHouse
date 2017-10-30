@@ -1,0 +1,180 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="fill_parent"
+    android:layout_height="fill_parent"
+    android:padding="2dp">
+
+    <LinearLayout
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:orientation="vertical">
+
+        <ImageView
+            android:id="@+id/profile_pic"
+            android:layout_width="70dp"
+            android:layout_height="50dp"
+            android:contentDescription="desc"
+            android:paddingLeft="10dp"
+            android:paddingRight="10dp" />
+
+        <TextView
+            android:id="@+id/member_name"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="1dp"
+            android:layout_marginLeft="10dp"
+            android:paddingBottom="0dp"
+            android:text="txt"
+            android:textSize="20dp" />
+
+        <TextView
+            android:id="@+id/status"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_alignLeft="@+id/member_name"
+            android:layout_below="@+id/member_name"
+            android:text="txt"
+            android:visibility="gone"
+            android:textSize="16dp" />
+
+    </LinearLayout>
+    <android.support.v7.widget.LinearLayoutCompat
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:orientation="vertical"
+        android:layout_alignParentRight="true">
+        <LinearLayout
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content">
+
+            <ImageView
+                android:id="@+id/speaker"
+                android:layout_width="35dp"
+                android:layout_height="35dp"
+                android:contentDescription="desc"
+                android:src="@drawable/aud_play" />
+
+            <ImageView
+                android:id="@+id/vid"
+                android:layout_width="35dp"
+                android:layout_height="35dp"
+                android:contentDescription="desc"
+                android:src="@drawable/video_play" />
+        </LinearLayout>
+        <LinearLayout
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content">
+            <RelativeLayout
+                android:layout_width="wrap_content"
+                android:layout_centerInParent="true"
+                android:id="@+id/audLayout"
+                android:layout_height="wrap_content">
+
+                <ImageView
+                    android:id="@+id/ivPrg"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_alignBottom="@+id/progressBar"
+                    android:adjustViewBounds="true"
+                    android:maxWidth="22dp"
+                    android:maxHeight="22dp"
+                    android:scaleType="fitCenter"
+                    android:layout_marginLeft="3dp"
+                    android:layout_centerInParent="true"
+                    android:src="@drawable/download_aud" />
+
+                <ImageView
+                    android:id="@+id/ivdel"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_alignBottom="@+id/progressBar"
+                    android:adjustViewBounds="true"
+                    android:maxWidth="22dp"
+                    android:maxHeight="22dp"
+                    android:scaleType="fitCenter"
+                    android:layout_marginLeft="3dp"
+                    android:visibility="invisible"
+                    android:layout_centerInParent="true"
+                    android:src="@drawable/delete" />
+
+                <ProgressBar
+                    android:id="@+id/progressBar"
+                    style="?android:attr/progressBarStyleHorizontal"
+                    android:layout_width="35dp"
+                    android:layout_height="35dp"
+                    android:layout_centerInParent="true"
+                    android:indeterminate="false"
+                    android:max="100"
+                    android:progress="0"
+                    android:progressDrawable="@drawable/custom_progressbar_drawable"
+                    android:secondaryProgress="0" />
+
+
+                <TextView
+                    android:id="@+id/txtProgress"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_alignBottom="@+id/progressBar"
+                    android:layout_centerInParent="true"
+                    android:visibility="invisible"
+                    android:textAppearance="?android:attr/textAppearanceSmall" />
+            </RelativeLayout>
+
+            <RelativeLayout
+                android:layout_width="wrap_content"
+                android:layout_centerInParent="true"
+                android:id="@+id/vidLayout"
+                android:layout_height="wrap_content">
+
+                <ImageView
+                    android:id="@+id/ivPrg1"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_alignBottom="@+id/progressBar1"
+                    android:adjustViewBounds="true"
+                    android:maxWidth="22dp"
+                    android:maxHeight="22dp"
+                    android:scaleType="fitCenter"
+                    android:layout_marginLeft="3dp"
+                    android:layout_centerInParent="true"
+                    android:src="@drawable/download" />
+
+                <ImageView
+                    android:id="@+id/ivdel1"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_alignBottom="@+id/progressBar1"
+                    android:adjustViewBounds="true"
+                    android:maxWidth="22dp"
+                    android:maxHeight="22dp"
+                    android:scaleType="fitCenter"
+                    android:layout_marginLeft="3dp"
+                    android:visibility="invisible"
+                    android:layout_centerInParent="true"
+                    android:src="@drawable/delete" />
+
+                <TextView
+                    android:id="@+id/txtProgress1"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_alignBottom="@+id/progressBar1"
+                    android:layout_centerInParent="true"
+                    android:visibility="invisible"
+                    android:textAppearance="?android:attr/textAppearanceSmall" />
+
+                <ProgressBar
+                    android:id="@+id/progressBar1"
+                    style="?android:attr/progressBarStyleHorizontal"
+                    android:layout_width="35dp"
+                    android:layout_height="35dp"
+                    android:layout_centerInParent="true"
+                    android:indeterminate="false"
+                    android:max="100"
+                    android:progress="0"
+                    android:progressDrawable="@drawable/custom_progressbar_drawable"
+                    android:secondaryProgress="0" />
+            </RelativeLayout>
+        </LinearLayout>
+    </android.support.v7.widget.LinearLayoutCompat>
+
+</RelativeLayout>

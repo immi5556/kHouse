@@ -1,0 +1,114 @@
+<resources>
+    <string name="app_name">Chuck 24Hours Bible</string>
+
+    <string name="hello_world">Hello world!</string>
+    <string name="action_settings">Settings</string>
+
+    <string-array name="topics">
+        <item>Introduction</item>
+        <item>Creation And The Fall of Man</item>
+        <item>The Pre-historical Period</item>
+        <item>The Patriarchs</item>
+        <item>The Birth Of The Nation</item>
+        <item>In The Land</item>
+        <item>The Monarchy</item>
+        <item>The Poetical Books</item>
+        <item>The Book Of Daniel</item>
+        <item>Post-Exile History</item>
+        <item>The Major Prophets</item>
+        <item>The Minor Prophets</item>
+        <item>How Sure Can We Be</item>
+        <item>The New Testament</item>
+        <item>The Gospels</item>
+        <item>The Last Week</item>
+        <item>The Book Of Acts</item>
+        <item>Romans</item>
+        <item>The Church Epistles</item>
+        <item>The Hebrew Christian Epistles</item>
+        <item>Eschatologicial Summary</item>
+        <item>Revelation 1-3</item>
+        <item>Revelation 4-22</item>
+        <item>Conclusion</item>
+    </string-array>
+
+    <array name="profile_pics">
+        <item>@drawable/__001</item>
+        <item>@drawable/__002</item>
+        <item>@drawable/__003</item>
+        <item>@drawable/__004</item>
+        <item>@drawable/__005</item>
+        <item>@drawable/__006</item>
+        <item>@drawable/__007</item>
+        <item>@drawable/__008</item>
+        <item>@drawable/__009</item>
+        <item>@drawable/__010</item>
+        <item>@drawable/__011</item>
+        <item>@drawable/__012</item>
+        <item>@drawable/__013</item>
+        <item>@drawable/__014</item>
+        <item>@drawable/__015</item>
+        <item>@drawable/__016</item>
+        <item>@drawable/__017</item>
+        <item>@drawable/__018</item>
+        <item>@drawable/__019</item>
+        <item>@drawable/__020</item>
+        <item>@drawable/__021</item>
+        <item>@drawable/__022</item>
+        <item>@drawable/__023</item>
+        <item>@drawable/__024</item>
+    </array>
+
+    <string-array name="statues">
+        <item>Blogging</item>
+        <item>Available</item>
+        <item>Busy</item>
+        <item>In a meeting</item>
+        <item>At work</item>
+        <item>At gym</item>
+        <item>Blogging</item>
+        <item>Available</item>
+        <item>Busy</item>
+        <item>In a meeting</item>
+        <item>At work</item>
+        <item>At gym</item>
+        <item>Blogging</item>
+        <item>Available</item>
+        <item>Busy</item>
+        <item>In a meeting</item>
+        <item>At work</item>
+        <item>At gym</item>
+        <item>Blogging</item>
+        <item>Available</item>
+        <item>Busy</item>
+        <item>In a meeting</item>
+        <item>At work</item>
+        <item>At gym</item>
+    </string-array>
+
+    <string-array name="contactType">
+        <item>Mobile</item>
+        <item>Work</item>
+        <item>Home</item>
+        <item>Work</item>
+        <item>Mobile</item>
+        <item>Mobile</item>
+        <item>Mobile</item>
+        <item>Work</item>
+        <item>Home</item>
+        <item>Work</item>
+        <item>Mobile</item>
+        <item>Mobile</item>
+        <item>Mobile</item>
+        <item>Work</item>
+        <item>Home</item>
+        <item>Work</item>
+        <item>Mobile</item>
+        <item>Mobile</item>
+        <item>Mobile</item>
+        <item>Work</item>
+        <item>Home</item>
+        <item>Work</item>
+        <item>Mobile</item>
+        <item>Mobile</item>
+    </string-array>
+</resources>
